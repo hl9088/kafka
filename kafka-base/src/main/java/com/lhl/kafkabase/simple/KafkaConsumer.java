@@ -1,4 +1,4 @@
-package com.lhl.kafkabase.consumer;
+package com.lhl.kafkabase.simple;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -14,7 +14,7 @@ public class KafkaConsumer {
     private static Logger logger = LoggerFactory.getLogger(KafkaConsumer.class);
 
     @KafkaListener(topics = {"test"})
-    public void consumer(String message){
+    public void consumer(String message) {
         logger.info("topic 信息：{}", message);
     }
 }

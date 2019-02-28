@@ -1,4 +1,4 @@
-package com.lhl.kafkabase.producer;
+package com.lhl.kafkabase.simple;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.core.KafkaTemplate;
