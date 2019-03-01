@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>com.lhl</groupId>
-    <artifactId>kafka-base</artifactId>
+    <artifactId>kafka-base3</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>kafka-base</name>
+    <name>kafka-base3</name>
     <description>Demo project for Spring Boot</description>
 
 </project>
